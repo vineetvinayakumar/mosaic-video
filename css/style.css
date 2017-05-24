@@ -1,0 +1,1075 @@
+/* Fonts Start */
+
+@font-face {
+    font-family: ITC;
+    src: url(../fonts/ITCAvantGardeStd-Demi.otf);
+}
+
+@font-face {
+    font-family: akziden;
+    src: url(../fonts/AkzidenzGrotesk-Medium.otf);
+}
+
+@font-face {
+    font-family: dinEng;
+    src: url(../fonts/DINEngschriftStd.otf);
+}
+
+
+@font-face {
+    font-family: geogro;
+    src: url(../fonts/Geogtq-Rg.otf);
+}
+
+@font-face {
+    font-family: readMore-Geogro;
+    src: url(../fonts/Geogtq-Bd.otf);
+}
+
+
+
+/* Fonts End */
+
+body{
+	background-color: #ffffff;
+	font-family: geogro;
+}
+
+/*
+.mainSection{
+	padding: 7em 0;
+}
+*/
+
+.navbar-brand{
+	padding: 10px;
+	font-family: ITC;
+}
+
+.maininnerSection{
+}
+/* Navbar CSS Start */
+
+.navbar{
+	margin-bottom: 3px;
+	font-family: ITC;
+	letter-spacing: 3px;
+}
+
+.navbar-default{
+	background: transparent;
+	border:transparent;
+	padding: 0.1em 0;
+	z-index: 998;
+	font-family: ITC;
+}
+
+.navbar-right{
+	padding: 1.5em 0;
+	z-index: 998;
+	float:right;
+	font-family: ITC;
+	font-size: 1em;
+}
+
+#myNav{
+	z-index: 999;
+}
+
+
+.navbar-default .navbar-nav > li > a{
+	color: #ffffff;
+	margin-right: 0.3em;
+	margin-left: 0.3em;
+}
+
+.navbtn{
+	border:1px solid #ffffff;
+	border-radius: 1em;
+	z-index: 999;
+}
+
+.navbtnDark{
+	border:1px solid #606060;
+	border-radius: 1em;
+	z-index: 999;
+}
+
+.navbtnLight{
+	border:1px solid #ffe000;
+	border-radius: 1em;
+	z-index: 999;
+}
+
+.navbar-default .navbar-dark > li > a{
+	color: #606060;
+}
+
+
+.nav > li > a {
+    position: relative;
+    display: -webkit-inline-box;
+    padding: 15px;
+	margin-top: 10px !important;
+}
+
+.hamburgerMenu{
+	font-size: 1.5em !important;
+	border-radius: 5em;
+	background-color: #ffe000;
+	z-index: 999;
+}
+
+.hamburgerMenu:hover{
+	background-color: red;
+	color:#ffe000;
+}
+
+.glyphicon-menu-hamburger{
+	color:#8c8b8b;
+}
+
+.normalMenubar{
+	background: #8c8b8b;
+	color:#ffe000 !important;
+	opacity: 0.9;
+}
+
+.normalnavItem{
+	color: #ffe000 !important;
+}
+
+
+
+
+/* Navbar CSS ENd */
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.mainFooter{
+	padding: 4.5em 0;
+}
+
+.card{
+	background-color: #ffffff;
+	padding-bottom: 3em;
+	margin-bottom: 3em;
+}
+
+.homedescriptionSection{
+	min-height: 588px;
+    padding: 15em 9em;
+}
+
+.descriptionSection{
+	min-height: 588px;
+    padding: 9em;
+}
+
+.descriptionSectionDark{
+	min-height: 637px;
+	padding: 10em;
+	background-color: #000000;
+	color:#ffffff;
+}
+
+.descriptionSectionDark > .row > h2{
+	color: #ffffff;
+}
+
+.descriptionSectionDark > .row > p{
+	color: #f1f1f1;
+}
+
+
+
+p{
+	color: #606060;
+	line-height: 1.5em;
+	font-size: 1.1em;
+}
+
+.readMoreSection{
+	padding-top: 5em;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.readMoreSection > a{
+	font-size: 1.5em;
+	border-bottom: 0.35em solid #000000;
+	color:#000000;
+	font-weight: bolder;
+	font-family: readMore-Geogro;
+}
+
+.linkSection{
+	padding-top: 5em;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.linkSection > a{
+	font-size: 1.1em;
+	color:#000000;
+}
+
+.learnMoreSection{
+	padding-top: 0.4em;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.learnMoreSection > a{
+	font-family: readMore-Geogro;
+	font-size: 1.3em;
+	border-bottom: 0.35em solid #606060;
+	color:#606060;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.nopaddingProfile{
+   padding: 0 !important;
+   margin: 0.4em 0 !important;
+}
+
+.leftBottompadding{
+	padding: 0 0em 0.6em 0.6em !important;
+}
+
+.lefttoppadding{
+	padding: 0 0 0 0.6em !important;
+}
+
+.rightBottompadding{
+	padding: 0 0.6em 0.6em 0 !important;
+}
+
+.righttoppadding{
+	padding: 0 0.6em 0 0 !important;
+}
+
+.rightBottom{
+	padding:0 0.3em 0.3em 0;
+}
+
+.paddingbottom{
+	padding-bottom: 0.3em;
+}
+
+.paddingRight{
+	padding-right: 0.3em;
+	padding-bottom: 0;
+}
+
+.triangle-right:after {
+  top:280px;	
+	left:0px;
+  position: absolute;
+  height: 0; 
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-left: 40px solid #ffffff;
+}
+
+.triangle-left:after {
+  top:280px;
+  right: 0px;
+  position: absolute;
+  height: 0; 
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-right: 40px solid #ffffff;
+}
+
+.normalSection{
+	padding: 6em 0;
+	background-color: #f1f1f1;
+}
+
+.normalHeader{
+	padding: 2em 0;
+}
+
+.imgBox{
+	min-height: 300px;
+}
+
+.featureSection{
+	background-color: #f1f1f1;
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
+.pricingBtnsection{
+	padding: 0 5em 0em 5em;
+}
+
+.pricingMonth{
+	font-weight: bolder;
+	color:#000000;
+	font-family: readMore-Geogro;
+	margin-bottom: 2em;
+}
+
+.featuresSection{
+	padding: 0 4em 0em 4em;
+}
+
+.contactHeading{
+	color:#a5a7aa !important;
+	line-height: 1.4em !important;
+}
+
+.address{
+	padding: 2em 0;
+}
+
+.address > p{
+	font-size: 1.6em;
+	font-weight: 500;
+	line-height: 1.2em;
+}
+
+.contactFormsection{
+	padding: 10em 10em 0 10em;
+}
+
+.callNumberSection{
+	padding-top: 5em;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.callNumber{
+	color:#606060 !important;
+	font-size: 1.3em !important;
+	border-bottom: 0.35em solid #606060;
+	font-weight: 700;
+	font-family: readMore-Geogro;
+}
+
+#contactForm > .form-group > .form-control{
+	height: 54px;
+	text-align: center;
+}
+
+#loginForm > .form-group > .form-control{
+	height: 54px;
+	text-align: center;
+}
+
+.btnPricing{
+	padding: 0.5em 2.4em;
+	margin:0 0.4em;
+    border-radius: 0.5em;
+	font-size: 1.2em;
+	color: #ffffff;
+}
+
+.eventsSection{
+	padding: 9em 0 10em 0;
+}
+
+.eventsSectionSuggestion{
+	padding: 9em 0 8em 0;
+}
+
+.owl-carousel{
+	padding-left: 0em;
+	padding-right: 0em;
+}
+
+.eventListSectionhead{
+	padding-bottom: 1em;
+}
+
+.eventBrief{
+	padding: 2em 0.5em 1em 0.5em;
+}
+
+.readMoreEvents{
+    padding-top: 1em;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.readMoreEvents > a{
+	font-size: 1.2em;
+	border-bottom: 0.35em solid #000000;
+	color:#000000;
+	font-weight: bold;
+	font-family: readMore-Geogro;
+}
+
+.owl-item{
+	min-height: 650px !important;
+	padding:0 1.5em 0 1.5em; 
+}
+
+.event{
+	background-color: #e8e8e8;
+	padding-bottom: 3em;
+}
+
+.loginLogo{
+	margin-bottom: 2em;
+}
+
+.loginBgsection{
+	background-image: url('../images/login.png');
+	height: 638px;
+}
+
+
+/* Footer CSS Start */
+
+
+footer{
+	background-color: #000000;
+	padding: 0.7em 0 0.2em 0;
+	color:#babcbd;
+}
+
+.footersectionHeading{
+	color:#babcbd;
+	padding-bottom: 1.3em;
+	font-size: 1.1em;
+}
+
+.footerbtn{
+	background-color: #fec600;
+	font-weight: 700;
+	border:1px solid transparent;
+	font-family: ITC;
+}
+
+
+.btnTouch{
+	padding: 0.5em 2.4em;
+	margin:0 0.4em;
+    border-radius: 0.5em;
+	font-size: 1.1em;
+}
+
+.subscribetxtbox{
+	border:1px solid #5d5d5d;
+	background-color: #000000;
+	border-radius: 0.5em;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+/* Footer CSS ENd */
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+.text {
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 1px;
+    width: 100%
+}
+
+.underlineHeading{
+	border-bottom: 0.12em solid #ffffff;
+}
+
+span.underline {
+	position: relative;
+    top: 396px;
+    border-bottom: 10px solid #ffffff;
+    display: inline-block;
+    width: 370px;
+}
+
+span.homeUnderline {
+	position: relative;
+    top: 396px;
+    border-bottom: 10px solid #ffffff;
+    display: inline-block;
+    width: 54%;
+}
+
+span.eventUnderline {
+	position: relative;
+    top: 396px;
+    border-bottom: 10px solid #ffffff;
+    display: inline-block;
+    width: 55%;
+}
+
+span.wellness {
+	position: relative;
+    top: 396px;
+    border-bottom: 10px solid #ffffff;
+    display: inline-block;
+    width: 37%;
+}
+
+span.pricingLine {
+	position: relative;
+    top: 396px;
+    border-bottom: 10px solid #ffffff;
+    display: inline-block;
+    width: 75%;
+}
+
+.slidersubHeading { 
+   position: absolute; 
+   top: 415px; 
+   left: 0; 
+   width: 100%; 
+   color: #ffffff;
+   font-family: geogro;
+}
+
+
+h1 { 
+   position: absolute; 
+   top: 305px; 
+   left: 0; 
+   width: 100%; 
+   color: #ffffff;
+   text-transform: uppercase;
+   font-size: 6em;
+   font-weight: 400;
+   font-family: dinEng;
+}
+
+
+h2{
+	font-size: 3em;
+	font-weight: 500;
+	color:#000000;
+	margin: 0;
+	padding-bottom: 0.3em;
+	font-family: akziden;
+}
+
+h3{
+	font-size: 1.6em;
+	font-weight: 500;
+	color:#000000;
+	font-family: akziden;
+}
+
+h4{
+	font-size: 2em;
+	font-weight: 500;
+	position: absolute;
+    bottom: 0px;
+	padding-bottom: 0.5em;
+	font-family: akziden;
+}
+
+h5 { 
+   position: absolute; 
+   top: 400px; 
+   left: 0; 
+   width: 100%; 
+   color: #ffffff;
+   font-family: akziden;
+}
+
+h6{
+	color: #606060;
+	text-transform: uppercase;
+	font-family: akziden;
+	font-size: 1em;
+}
+
+.glanceImagetxt{
+	color: #ffffff;
+	padding-left: 1em;
+}
+
+.planDescription{
+	font-size: 0.9em;
+}
+
+#greatWorkHeading{
+	font-size: 3em;
+}
+
+.featureHeading{
+	font-weight: 700;
+	color:#000000;
+	font-size: 1em;
+}
+
+.featuresubHeading{
+	font-size: 1em;
+	color:#606060;
+	font-weight: bolder;
+	text-transform: uppercase; 
+}
+
+.featureDescription{
+	color:#606060;
+	font-size: 0.9em;
+	padding-top: 0.4em;
+}
+
+.schemeCard{
+	background-color: #ffffff;
+	margin-right: 3em;
+	margin-bottom:3em;
+}
+
+.memberShipSection{
+	background-color: #e6e6e6;
+	padding:4.5em 0;
+}
+
+.schemeCardtitle{
+	background-color: #f1f1f2;
+}
+
+.featureBox{
+	border:1px solid #e1e3e4;
+	padding: 1em 1em 0 1em;
+	min-height: 100px;
+}
+
+
+.grey{
+	background-color: #919395;
+}
+
+.lightgrey{
+	background-color: #ced1d2;
+}
+
+.darkGrey{
+	background-color: #6d6e70;
+}
+
+.darkestGrey{
+	background-color: #ced1d2;
+}
+
+.pricingCard{
+	background-color: #f1f1f2;
+    padding: 3em 2em;
+    margin-top: -7em;
+    margin-bottom: -3em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.pricingBox{
+	background-color: #000000;
+    color: #ffffff;
+    padding: 2em;
+}
+
+.networkingMembershipCard{
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	padding: 5em;
+	border: 1px solid #e1e3e4;
+}
+
+.wrapper{
+	padding: 3em 6em;
+}
+
+.bookingSection{
+	border-bottom:0.5em solid #e7e7e7;
+}
+
+.eventName{
+	font-family: dinEng;
+	font-size: 4.5em;
+}
+
+.eventPrice{
+	color: #e4b92f;
+	font-family: geogro;
+	font-weight: bolder;
+	padding-bottom: 0.5em;
+}
+
+.eventDate{
+	font-family: dinEng;
+	font-size: 1.5em;
+	padding-top: 0.5em;
+}
+
+.eventTime{
+	font-family: dinEng;
+	font-size: 1.5em;
+	padding-bottom: 0.5em;
+}
+
+.saveDataHeader{
+	font-family: dinEng;
+	font-size: 1.5em;
+	padding-top: 0.5em;
+}
+
+.attendeesHead{
+	font-family: dinEng;
+	font-size: 1.5em;
+}
+
+.eventDateSection{
+	padding-bottom: 2em;
+}
+
+.eventAttendeeSection{
+	padding-top: 1em;
+}
+
+.eventSuggestionHeader{
+	padding: 2em 0;
+}
+
+.eventSuggestionHead{
+	font-family: ITC;
+}
+
+.eventSuggestionreadmore{
+	padding-top: 2.5em;
+}
+
+.iconCalendar{
+	color:#efc62e;
+	font-weight:300;
+	font-size: 1.5em;
+}
+
+.eventImg { 
+    width: 100%;
+    height: auto;
+}
+
+.eventBannerText {
+    position: absolute;
+    bottom: 220px;
+    left: 36px;
+    font-size: 18px;
+}
+
+.eventBannerTextsuggestion{
+	position: absolute;
+    bottom: 205px;
+    left: 36px;
+    font-size: 18px;
+}
+
+.freeEvent{
+	position: absolute;
+    top: 0px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 100px 100px 0 0;
+	border-color: #ffbd00 transparent transparent transparent;
+}
+
+.freeText{
+	position: absolute;
+    top: -88px;
+    color: #ffffff;
+    font-size: 2em;
+    left: 10px;
+    -ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(-47deg);
+}
+
+.freeEventSuggestion{
+	position: absolute;
+    top: 0px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 100px 100px 0 0;
+	border-color: #ffbd00 transparent transparent transparent;
+}
+
+.freeTextSuggestion{
+	position: absolute;
+    top: -88px;
+    color: #ffffff;
+    font-size: 2em;
+    left: 10px;
+    -ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(-47deg);
+}
+
+.eventTitlecarausel{
+	color:#ffffff;
+	text-align: left;
+	font-weight: 500;
+	font-family: akziden;
+	margin: 0 0 5px;
+}
+
+.eventTimecarausel{
+	color:#ffffff;
+	text-align: left;
+	font-weight: lighter;
+}
+
+.customNextBtn{
+	padding-top: 8em;
+	font-size: 4em;
+    color: #ffbc00; 
+}
+
+.customNextBtnsugg{
+	padding-top: 5em;
+	font-size: 4em;
+    color: #ffbc00; 
+}
+
+video {
+background-color: transparent !important;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 800px) and (min-width: 200px) {
+	
+	.navbar-right{
+		padding: 0.5em 0;
+		z-index: 998;
+		float:right;
+		font-family: ITC;
+		font-size: 0.9em;
+	}
+	
+	.nav > li > a{
+		    padding: 10px 11px !important;
+	}
+	
+	.navbar-default .navbar-nav > li > a{
+		margin-right: 0.1em;
+		margin-left: 0.1em;
+	}
+	
+	h2{
+		padding-top: 0.2em;
+	}
+	.overlay-content{
+		text-align:left !important;
+		padding-left: 2em;
+	}
+    .descriptionSection {
+		min-height: 0px;
+		padding: 2.5em;
+	}
+	
+	.homedescriptionSection{
+		min-height: 0px;
+		padding: 2.5em;
+	}
+	
+	.navbar-header{
+		float: left;
+		width: 30%;
+	}
+	
+	#navbar{
+		float:right;
+		width: 70%;
+	}
+	
+	.navbar{
+		margin-bottom: 3px;
+	}
+	
+	.navbar-right > li{
+		float:left;
+	}
+	.navbar-right{
+		    padding: 0.4em 0;
+	}
+	.descriptionSectionDark{
+		min-height: 0px;
+		padding: 4em 3em;
+	}
+	
+	.checkImg{
+		padding-top: 0.5em;
+	}
+	
+	.pricingBtnsection{
+		    padding: 0 2em 0em 2em;
+	}
+	
+	.featuresSection{
+		padding: 0 2em 0em 2em;
+	}
+	
+	.contactFormsection{
+		padding: 4em 4em 0 4em;
+	}
+	
+	.contactSubtitle{
+		text-transform: inherit !important;
+		color: #606060 !important;
+	}
+	
+	.callNumberSection{
+		padding: 4em 0;
+	}
+	
+	.pricingCard{
+		margin-left:1em;
+		margin-right: 1em;
+	}
+	.schemeCard{
+		margin-right: 0em; 
+	}
+	
+	.networkingMembershipCard{
+		padding: 2em;
+	}
+	
+	.triangle-right:after {
+	  display: none;
+	}
+
+	.triangle-left:after {
+	  display: none;
+	}
+	
+	#navbar{
+		background-color: #8c8b8b;
+	}
+	
+	.followUsSection{
+		padding-top: 2em;
+	}
+	
+	.subscribeSection{
+		padding-top: 4em;
+	}
+	
+	.readMoreSection{
+		padding-top: 1.5em;
+    	padding-bottom: 0.9em;
+	}
+	
+	.linkSection{
+		padding-top:1em;
+	}
+	
+	.mainFooter{
+		padding: 3.5em 0;
+	}
+	
+	.featureSection{
+		background-color: #f1f1f1;
+		padding-top: 3em;
+		padding-bottom: 3em;
+	}
+	
+	.navbar-default{
+		padding: 0.1em 0 1.5em 0;
+	}
+	
+	.wrapper{
+		padding: 3em 0em;
+	}
+	
+	.eventName{
+		font-family: dinEng;
+		font-size: 3.2em;
+	}
+	
+}
+
+/* Media Queries End */
+
+/* Menu CSS End */
+
+/* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: #ffc700; /* Black fallback color */
+    background-color: #ffc700; /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 2em;
+    color: #818183;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+	font-weight: 800;
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #676768;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 3em;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 500px) {
+	
+    .overlay a {font-size: 2em}
+    .overlay .closebtn {
+        font-size: 3em;
+        top: 15px;
+        right: 2em;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 200px)
+{
+	#navbar {
+		background-color: transparent;
+	}
+	
+}
+
+/* Menu CSS End */
+
+
+
+
